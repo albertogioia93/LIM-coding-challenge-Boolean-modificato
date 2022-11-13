@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+.layover{
+  width: 960px;
+  height: 680px;
+  background-color: rgba(0,0,0,0.5);
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 25px;
+}
+
+.logo-title{
+  text-align: center;
+  padding-top: 76px;
+}
+
+#logo{
+  width: 205px;
+}
+
+#title{
+  font-size: 25px;
+  color: lime;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+#green-rectangle{
+  width: 800px;
+  background-color: lime;
+  text-align: center;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 8px;
+}
+
+.button{
+  font-weight: bold;
+  font-size: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+section{
+  color: white;
+  font-size: 13px;
+  font-weight: 10;
+  padding-left: 83px;
+  padding-top: 23px;
+}
+
+section .nome-monopattino{
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.checkbox{
+  width: 11px;
+  height: 11px;
+}
+
+.battery{
+  height: 25px;
+  border-radius: 4px;
+  margin-top: 3px;
+}
+
+#battery1{
+  width: 280px;
+  background-color: rgba(250,190,88);
+}
+
+#battery2{
+  width: 480px;
+  background-color: rgba(0,230,64);
+}
+
+#battery3{
+  width: 120px;
+  background-color: rgba(214,69,65);
+}

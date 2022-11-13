@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>LIM Coding Challenge Boolean</title>
+  </head>
+  <body>
+    <div class="layover">
+
+      <!-- parte che contiene logo, titolo e i 3 bottoni input -->
+
+      <header>
+        <div class="logo-title">
+          <img id="logo" src="logo.png">
+          <h1 id="title">Taking Booleaners from A to B</h1>
+        </div>
+        <div id="green-rectangle">
+          <input class="button" type="submit" value="Prenota">
+          <input class="button" type="submit" value="Termina Prenotazione">
+          <input class="button" type="submit" value="Accendi Luci">
+        </div>
+      </header>
+
+      <!-- scritte a sinistra della pagina che contengono nomi dei monopattini, posizioni e relativi stati della batteria -->
+
+      <main>
+        <section>
+          <input class="checkbox" type="checkbox">
+          <span class="nome-monopattino"> Monopattino Gino22</span><br>
+          ↦ Via Guadalametri - a 220 metri da te <br>
+          Stato carica:
+          <div class="battery" id="battery1"></div>
+        </section>
+
+        <section>
+          <input class="checkbox" type="checkbox">
+          <span class="nome-monopattino"> Monopattino Mike24</span><br>
+          ↦ Via Ricciardoni - a 420 metri da te<br>
+          Stato carica:
+          <div class="battery" id="battery2"></div>
+        </section>
+
+        <section>
+          <input class="checkbox" type="checkbox">
+          <span class="nome-monopattino"> Monopattino Fede154</span><br>
+          ↦ Via Mentarini - a 490 metri da te <br>
+          Stato carica:
+          <div class="battery" id="battery3"></div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
